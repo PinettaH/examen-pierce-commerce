@@ -12,6 +12,7 @@ Examen tecnico realizado con NodeJs y Express como tecnologias principales y uti
   - [Docker](#docker)
   - [Tests](#tests)
   - [Endpoints](#endpoints)
+    - [Collection Postman](#collection-postman)
   - [Tecnologias](#tecnologias)
 
 ## Instalacion
@@ -45,6 +46,10 @@ El comando para ejecutar los Test es: `npm run test`
 En caso de no existir adn devuelve un Status code 400 (Bad request)
 En caso de no encontrar un patron valido devuelve un Status code 403(Forbiden)
 En caso de realizar todo correctamente devuelve un Status code 200 (Success)
+### Collection Postman 
+Link de mi collection de Postan:
+  
+`https://www.postman.com/cryosat-specialist-90530076/examen-pierce-commerce/collection/8t1wuyx/examen-pierce-commerce?action=share&creator=26210982`
 
 `GET            /api/stats`: Consulta a la base de datos para para obtener el objeto que lleva el conteo de cantidad_positivos y cantidad_negativos para mostrarselos al usuario.
 ## Tecnologias
