@@ -1,4 +1,3 @@
-import Adn from "../model/adn.js"
 import Stats from "../model/Stats.js"
 
 export const guardarPatron = async (positivos, negativos) => {
